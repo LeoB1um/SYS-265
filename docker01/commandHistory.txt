@@ -1,0 +1,780 @@
+    1  exut
+    2  exit
+    3  sudo -i
+    4  id
+    5  sudo usermod -aG docker leo
+    6  su - leo
+    7  groups
+    8  docker
+    9  docker info
+   10  docker run hello-world
+   11  docker search ubuntu 
+   12  docker pull ubuntu
+   13  docker images
+   14  docker run -it ubuntu
+   15  docker ps
+   16  docker ps -a
+   17  docker ps -1
+   18  docker ps -l
+   19  docker start e41de7e0de3b
+   20  docker ps
+   21  docker stop kind_heyrovsky 
+   22  docker commit -m "added node.js" -a "leo" e41de7e0de3b leo/ubuntu-nodejs
+   23  docker images 
+   24  docker version
+   25  docker-compose --version
+   26  docker --version
+   27  docker-compose
+   28  sudo curl -L "https://github.com/docker/compose/releases/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   29  sudo chmod +x /usr/local/bin/docker-compose 
+   30  docker-compose --version
+   31  docker-compose
+   32  ls /usr/local/bin/docker-compose 
+   33  cd /usr/local/bin/docker-compose 
+   34  ls /usr/local/bin/
+   35  ls -a /usr/local/bin/
+   36  ls -l
+   37  ls -l /usr/local/bin/
+   38  cat /usr/local/bin/docker-compose 
+   39  cat /usr/local/bin/
+   40  docker-compose 
+   41  sudo curl -L "https://github.com/docker/compose/releases/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   42  sudo curl -L "https://github.com/docker/compose/releases/2.23.4/docker-compose-linux-aarch64" -o /usr/local/bin/docker-compose
+   43  docker-compose 
+   44  sudo curl -L "https://github.com/docker/compose/releases/tag/v2.23.4/docker-compose-linux-aarch64" -o /usr/local/bin/docker-compose
+   45  docker-compose 
+   46  docker-compose --version
+   47  ls
+   48  cd /usr/local/bin/
+   49  ls
+   50  rm docker-compose 
+   51  sudo rm docker-compose 
+   52  y
+   53  ls
+   54  cd
+   55  sudo curl -L "https://github.com/docker/compose/releases/tag/v2.23.4/docker-compose-linux-aarch64" -o /usr/local/bin/docker-compose
+   56  cd -
+   57  ls
+   58  docker-compose
+   59  sudo docker-compose
+   60  sudo rm docker-compose 
+   61  ls
+   62  sudo curl -L "https://github.com/docker/compose/releases/tag/v2.23.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   63  docker-proxy 
+   64  docker-proxy -V
+   65  docker-compose
+   66  cat docker-compose 
+   67  ./docker-compose
+   68  sudo docker-compose
+   69  sudo ./docker-compose
+   70  sudo chmod +x docker-compose 
+   71  docker-compose 
+   72  sudo docker-compose
+   73  docker-compose --version
+   74  vi docker-compose 
+   75  sudo vi docker-compose 
+   76  docker-compose 
+   77  rm docker-compose 
+   78  sudo rm docker-compose 
+   79  ls
+   80  sudo curl -L "https://github.com/compose/releases/download/$LATEST_VERSION/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   81  cat docker-compose 
+   82  sudo rm docker-compose 
+   83  sudo curl -L "https://github.com/compose/releases/download/2.32.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   84  sudo rm docker-compose 
+   85  sudo curl -L "https://github.com/compose/releases/download/v2.32.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   86  sudo curl -L "https://github.com/compose/releases/download/tag/v2.32.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   87  curl "https://github.com/docker/compose/releases/tag/v2.34.4
+   88  "
+   89  curl "https://www.github.com/docker/compose/releases/tag/v2.34.4
+   90  "
+   91  curl -L "https://www.github.com/docker/compose/releases/tag/v2.34.4
+   92  "
+   93  sudo curl -L "https://github.com/docker/compose/releases/tag/v2.23.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   94  sudo curl -L "https://github.com/compose/releases/download/tag/v2.32.4/docker-compose-$(uname -s)-$(uname -m)"
+   95  curl -L
+   96  curl -h
+   97  curl --help all
+   98  curl --help all | grep -L
+   99  "
+  100  sudo chmod +x docker-compose 
+  101  docker-compose --version
+  102  dc-latest=$(curl -s https://api.github.com/repos/docker/compose/releases/latest)
+  103  curl -s https://api.github.com/repos/docker/compose/releases/latest |
+  104  curl -s https://api.github.com/repos/docker/compose/releases/latest 
+  105  curl -s https://api.github.com/repos/docker/compose/releases/latest | jq -r .tag_name
+  106  sudo apt install jq
+  107  curl -s https://api.github.com/repos/docker/compose/releases/latest | jq -r .tag_name
+  108  ls
+  109  sudo rm docker-compose 
+  110  sudo curl -L "https://api.github.com/docker/compose/releases/v2.23.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  111  cat docker-compose 
+  112  rm docker-compose 
+  113  sudo rm docker-compose 
+  114  sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  115  sudo chmod +x /usr/local/bin/docker-compose 
+  116  docker-compose --version
+  117  docker run --rm archlinux:latest /bin/echo "HELLO SYS265 SNOWY DAYS"
+  118  docker images
+  119  cat /etc/lsb-releases
+  120  cat /etc/lsb-release 
+  121  echo "Current Kernal is: $(uname -a)"
+  122  docker run -it archlinux /bin/uname -a
+  123  docker run -d -P docker/getting-started
+  124  docker -help
+  125  docker ps
+  126  firewalld
+  127  firewallcmd
+  128  firewall-cmd
+  129  docker ps
+  130  sudo ufw allow 32768/tcp
+  131  sudo ufw status 
+  132  sudo ufw reload
+  133  sudo ufw enable
+  134  sudo ufw allow 22/tcp
+  135  sudo ufw enable
+  136  sudo ufw status
+  137  sudo ufw allow 80/tcp
+  138  docker --version
+  139  docker-compose --version
+  140  ls
+  141  cd 
+  142  cd /var/http/www/wordpress
+  143  mkdir /var/http/www/wordpress
+  144  cd /var/http
+  145  cd /var/www
+  146  cd /var
+  147  ls
+  148  mkdir /http
+  149  sudo mkdir /http/www/wordpress
+  150  sudo mkdir /http/
+  151  cd /http/
+  152  mkdir www
+  153  sudo mkdir www
+  154  cd www
+  155  mkdir wordpres
+  156  sudo mkdir wordpress
+  157  pwd
+  158  cd 
+  159  ls
+  160  ls -a
+  161  cd /var
+  162  ls
+  163  cd /http
+  164  cd /http/www
+  165  ls
+  166  cd wordpress
+  167  sudo vi docker-compose.yml
+  168  ls
+  169  sudo nano docker-compose.yml
+  170  docker-compose up -d
+  171  ls
+  172  cat wp-config
+  173  cat wp-config.php
+  174  ls
+  175  cd -
+  176  ls
+  177  rm wordpress
+  178  rmdir wordpress
+  179  sudo rmdir wordpress
+  180  sudo rm wordpress
+  181  sudo rm -r wordpress
+  182  ls
+  183  mkdir wordpress
+  184  sudo mkdir wordpress
+  185  docker up
+  186  docker ps
+  187  docker stop wordpress-wordpress-1 
+  188  docker stop wordpress-db-1 
+  189  docker stop wordpress-phpmyadmin-1 
+  190  docker rm wordpress-wordpress-1 
+  191  docker rm wordpress-db-1 
+  192  docker rm wordpress-phpmyadmin-1 
+  193  ls
+  194  cd wordpress/
+  195  sudo nano docker-compose.yml
+  196  docker-compose restart
+  197  vi docker-compose.yml 
+  198  ls
+  199  cd /http/www/wordpress
+  200  ls
+  201  docker-compose up -d
+  202  ls
+  203  docker pull getting-started
+  204  cd
+  205  docker pull getting-started
+  206  docker run getting-started
+  207  sudo docker run getting-started
+  208  docker run hello-world
+  209  docker ps
+  210  ls
+  211  cd /http/www
+  212  ls
+  213  sudo mkdir chibisafe
+  214  cd chibisafe/
+  215  sudo nano docker-compose.yml
+  216  cat docker-compose.yml 
+  217  docker-compose up
+  218  ls
+  219  cat docker-compose.yml 
+  220  cat /home
+  221  docker ps
+  222  docker view
+  223  docker images
+  224  docker rm chibisafe
+  225  docker images
+  226  docker -ps a
+  227  docker -ps
+  228  docker images
+  229  docker ps
+  230  ls
+  231  mv docker-compose.yml /http/www
+  232  sudo mv docker-compose.yml /http/www
+  233  ls
+  234  cd -
+  235  ls
+  236  sudo rm -r chibisafe/
+  237  sudo mkdir chibisafe 
+  238  sudo mv docker-compose.yml chibisafe/
+  239  ls
+  240  cd  chibisafe/
+  241  ls
+  242  sudo nano docker-compose.yml 
+  243  docker-compose up -d
+  244  ls
+  245  docker ps
+  246  sudo ufw allow 8001/tcp
+  247  sudo ufw reload 
+  248  sudo ufw allow 24424/tcp
+  249  sudo ufw reload 
+  250  ls
+  251  ls -la
+  252  cd database/
+  253  ls
+  254  ls -a
+  255  cd -
+  256  docker
+  257  docker ps
+  258  docker stop chibisafe 
+  259  docker ps
+  260  ls
+  261  sudo rm database
+  262  sudo rm -r database
+  263  sudo rm -r logs uploads
+  264  ls
+  265  mkdir database logs uploads
+  266  sudo mkdir database logs uploads
+  267  ls
+  268  ls -la
+  269  cd -
+  270  ls
+  271  cd 
+  272  ls
+  273  cd /home
+  274  ls
+  275  cd leo
+  276  pwd
+  277  mkdir chibisafe
+  278  ls
+  279  cd chibisafe/
+  280  cp /http/www/chibisafe/docker-compose.yml docker-compose.yml
+  281  ls
+  282  ls -0la
+  283  ls -la
+  284  cat docker-compose.yml 
+  285  nano docker-compose.yml 
+  286  mkdir database logs uploads
+  287  ls
+  288  docker-compose up -d
+  289  docker ps
+  290  docker stop chibisafe 
+  291  docker rm chibisafe 
+  292  docker volume 
+  293  docker volume inspect
+  294  docker volume inspect chibisafe
+  295  docker volume inspect ls
+  296  docker volume ls
+  297  ls
+  298  docker-compose up -d
+  299  docker ps
+  300  sudo ufw
+  301  sudo ufw show
+  302  sudo ufw list
+  303  ufw status 
+  304  sudo ufb status 
+  305  sudo ufw status 
+  306  docker container ls
+  307  docker container ls --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}" -a
+  308  sl
+  309  ls
+  310  cd
+  311  pwd
+  312  ls
+  313  cd chibisafe/
+  314  ls
+  315  cat docker-compose.yml 
+  316  nano docker-compose.yml 
+  317  ls
+  318  ls -a
+  319  ls-l
+  320  ls -l 
+  321  rm docker-compose.yml 
+  322  docker stop chibisafe 
+  323  docker rm chibisafe 
+  324  ls
+  325  dockerps
+  326  docker ps
+  327  nano docker-compose.yml
+  328  docker-compose up -d
+  329  docker ps
+  330  sudo ufw reload
+  331  sudo ufw list
+  332  sudo ufw show
+  333  sudo ufw status
+  334  sudo ufw allow 24424/tcp
+  335  sudo ufw remove 24424/tcp
+  336  sudo ufw delete 24424/tcp
+  337  sudo ufw deny 24424/tcp
+  338  sudo ufw status
+  339  sudo ufw allow 24424/tcp
+  340  docker ps
+  341  sudo ufw show
+  342  sudo ufw status
+  343  ls
+  344  docker stop chibisafe 
+  345  docker rm chibisafe 
+  346  ls
+  347  rm database logs uploads/
+  348  rm -r database logs uploads/
+  349  ls
+  350  rm docker-compose.yml 
+  351  nano docker-compose.yml
+  352  nano Caddyfile
+  353  docker-compose up
+  354  docker run chibisafe/chibisafe
+  355  docker ps
+  356  docker run chibisafe/chibisafe -d
+  357  docker run chibisafe/chibisafe -p
+  358  docker run chibisafe/chibisafe 
+  359  docker ps
+  360  cd
+  361  ls
+  362  cd chibisafe/
+  363  ls
+  364  docker-compose up -d
+  365  docker ps
+  366  docker compose up
+  367  docker compose up -d
+  368  docker ps
+  369  caddy run --config
+  370  lsl
+  371  ls
+  372  cd uploads/
+  373  ls
+  374  cd -
+  375  cat Caddyfile 
+  376  docker compuse pull && docker compose up -d
+  377  docker compose pull && docker compose up -d
+  378  tree
+  379  sudo apt install tree
+  380  tree
+  381  docker stop chibisafe-c
+  382  docker ps
+  383  docker stop chibisafe-chibisafe
+  384  docker stop chibisafe-chibisafe-1
+  385  docker stop chibisafe-caddy-1 
+  386  docker stop chibisafe-chibisafe_server-1 
+  387  docker rm chibisafe-chibisafe-1
+  388  docker rm chibisafe-caddy-1 
+  389  docker rm chibisafe-chibisafe_server-1 
+  390  ls
+  391  cd -
+  392  cd /home/leo/
+  393  ls
+  394  rm -r chibisafe/
+  395  y
+  396  ls
+  397  mkdir chibisafe 
+  398  ls
+  399  cd chibisafe
+  400  docker
+  401  docker ps
+  402  nano docker-compose.yml
+  403  ls
+  404  nano caddyfile
+  405  nano docker-compose.yml
+  406  nano docker-compose.yml 
+  407  docker-compose up -d
+  408  docker ps
+  409  docker-compose logs caddy
+  410  docker-compose logs chibisafe
+  411  nano docker-compose.yml 
+  412  docker ps
+  413  docker stop wordpress
+  414  docker stop wordpress-wordpress-1 
+  415  docker stop wordpress-db-1 
+  416  docker stop  wordpress-phpmyadmin-1 
+  417  docker ps
+  418  cd /app
+  419  ls
+  420  cd logs/
+  421  ls
+  422  cd 
+  423  ls
+  424  caddy
+  425  cd chibisafe/
+  426  nano caddyfile 
+  427  docker-compose up -d
+  428  nano caddyfile 
+  429  docker-compose up -d
+  430  nano caddyfile 
+  431  sudo nano /etc/hosts
+  432  nslookup docker01-leo
+  433  sudo nano /etc/hosts
+  434  nslookup docker01-leo
+  435  ipconfig
+  436  ip -br a
+  437  ping google.comn
+  438  ping google.com
+  439  ping ad01-leo
+  440  ping docker01-leo
+  441  nano caddyfile 
+  442  docker
+  443  nano caddyfile 
+  444  nano docker-compose.yml 
+  445  docker-compose up -d
+  446  docker ps
+  447  nano docker-compose.yml 
+  448  nano caddyfile 
+  449  docker-compose up -d
+  450  nano caddyfile 
+  451  docker-compose up -d
+  452  docker ps
+  453  docker start chibisafe-caddy-1
+  454  docker ps
+  455  caddy rum --config
+  456  docker caddy rum --config
+  457  docker ps
+  458  docker-compose up -d
+  459  docker ps
+  460  nano caddyfile 
+  461  docker-compose up -d
+  462  docker ps
+  463  nano caddyfile 
+  464  nano docker-compose.yml 
+  465  docker-compose up -d
+  466  docker ps
+  467  docker-compose up -d
+  468  ls
+  469  ls uploads/
+  470  ls database/
+  471  ls logs/
+  472  clear
+  473  dddddw
+  474  asdaa
+  475  git clone 
+  476  git clone https://github.com/LeoB1um
+  477  git clone https://github.com/LeoB1um/SYS265
+  478  git config --global user.email "leo.blum@mymail.champlain.edu"
+  479  ssh-keygen -t rsa -b 4096 -C "leo.blum@mymail.champlain.edu"
+  480  cat /home
+  481  cat /home/leo/ssh
+  482  scp /home/leo/ssh leo.blum-adm@mgmt01-leo:C:/sshrsa
+  483  cd
+  484  ls
+  485  cat ssh.pub
+  486  ssh-keygen -t rsa -b 4096 -C "leo.blum@mymail.champlain.edu"
+  487  cat
+  488  cat ssh2.pub
+  489  git clone https://github.com/LeoB1um/SYS265
+  490  ssh -T LeoB1um@github.com
+  491  ssh-add ~/home/leo/ssh2
+  492  ssh -i ~/home/leo/ssh2 -T LeoB1um@github.com
+  493  scp /home/leo/chibisafe/docker-compose.yml 10.0.5.10:C:/Users/leo.blum-adm/Desktop
+  494  scp /home/leo/chibisafe/docker-compose.yml leo.blum-adm@mgmt01-leo:C:/Users/leo.blum-adm/Desktop
+  495  scp /home/leo/chibisafe/docker-compose.yml leo.blum-adm@mgmt01-leo:/C:/Users/leo.blum-adm/Desktop
+  496  cd chibisafe/
+  497  ls
+  498  scp docker-compose.yml leo.blum-adm@10.0.5.10:docker-compose.yml
+  499  clear
+  500  a
+  501  asdkjexit
+  502  \exit
+  503  cd chibisafe/
+  504  ls
+  505  cat d
+  506  cat docker-compose.yml 
+  507  docker ps
+  508  cat caddyfile 
+  509  git@github.com:LeoB1um/sys265.git
+  510  ssh git@github.com:LeoB1um/sys265.git
+  511  git innit
+  512  git init
+  513  cd
+  514  git init
+  515  cd -
+  516  cat docker-compose.yml 
+  517  cat caddyfile 
+  518  ls
+  519  docker ps
+  520  vi /etc/ssh/ssh_config
+  521  history 
+  522  cd /etc/network
+  523  ls
+  524  cd /etc/neplan/00-installer-config
+  525  cd /etc/netplan/
+  526  ls
+  527  vi 00-installer-config.yaml 
+  528  systemctl status sshd
+  529  sudo ip link set ens160 up
+  530  ip -br a
+  531  vi 00-installer-config.yaml 
+  532  ls -l
+  533  vi 00-installer-config.yaml 
+  534  vi /etc/ssh/sshd_config
+  535  sudo dnf install git
+  536  sudo apt-get git
+  537  sudo apt-get install git
+  538  pwd
+  539  mkdir /home/leo/techjournal/SYS265/docker01
+  540  sudo mkdir -r /home/leo/techjournal/SYS265/docker01
+  541  sudo mkdir /home/leo/techjournal/SYS265/docker01
+  542  ls
+  543  sudo mkdir /home/leo/techjournal/SYS265/docker01/
+  544  sudo mkdir /home/leo/techjournal/
+  545  cd techjournal/
+  546  mkdir SYS265
+  547  cd -
+  548  ls -a
+  549  ls -l
+  550  sudo rmdir techjournal/
+  551  mkdir techjournal
+  552  cd techjournal/
+  553  mkdir SYS265
+  554  cd SYS265/
+  555  mkdir docker01
+  556  ls
+  557  pwd
+  558  cd 
+  559  rm -r techjournal/
+  560  ls
+  561  git clone https://github.com/LeoB1um/SYS265
+  562  git clone https://github.com/LeoB1um
+  563  git clone https://github.com/LeoB1um/SYS265
+  564  git clone https://github.com/LeoB1um/SYS-265/wiki
+  565  git clone https://github.com/LeoB1um/SYS-265/
+  566  ls
+  567  cd SYS-265/
+  568  ls
+  569  ls -a
+  570  cd .git/
+  571  ls
+  572  cd
+  573  ls
+  574  rm SYS-265/
+  575  rm -r SYS-265/
+  576  lsa
+  577  ls
+  578  git clone https://github.com/LeoB1um/SYS-265.git
+  579  lsa
+  580  ls
+  581  d S
+  582  cd SYS-265/
+  583  ls
+  584  mkdir docker01
+  585  ls
+  586  cd docker01/
+  587  echo "docker01 configuration" >> README.md
+  588  ls
+  589  git add .
+  590  git status
+  591  git config user.email leo.blum@mymail.champlain.edu
+  592  git config user.name LeoB1um
+  593  git commit -m "added a readme"
+  594  git push
+  595  git config user.email 143550009+LeoB1um@users.noreply.github.com
+  596  git push
+  597  git config
+  598  git config --get
+  599  git config --local
+  600  cat README.md 
+  601  git user.email
+  602  git config user.email
+  603  git push
+  604  git config --global user.email 143550009+LeoB1um@users.noreply.github.com
+  605  git push
+  606  ls
+  607  cd ..
+  608  ls
+  609  mv caddyfile docker-compose.yml docker01/
+  610  ls
+  611  cd docker01/
+  612  ls
+  613  git push
+  614  cd ..
+  615  git push
+  616  cd docker01/
+  617  cat README.md 
+  618  rm README.md
+  619  git checkout
+  620  cat README.md
+  621  ls
+  622  cd
+  623  cd..
+  624  cd SYS-265/
+  625  ls
+  626  cd D
+  627  cd docker01/
+  628  ls
+  629  git checkout .
+  630  ls
+  631  cat README.md 
+  632  rm README.md 
+  633  git checkout .
+  634  cat README.md 
+  635  git status on branch master
+  636  cd ..
+  637  git pull
+  638  ls
+  639  rm docker01/caddyfile docker01/docker-compose.yml 
+  640  git status on branch master
+  641  git pull
+  642  pwd 
+  643  mkdir -p linux/{public-keys,ubuntu}
+  644  cd linux/
+  645  ls
+  646  ls /
+  647  cd /etc/ssh/
+  648  ls
+  649  cd ~/SYS-265/linux/
+  650  nano ubuntu/secure-ssh.sh
+  651  ls -l ubuntu/
+  652  chmod +x ubuntu/secure-ssh.sh 
+  653  ls -l ubuntu/
+  654  cat ubuntu/secure-ssh.sh 
+  655  git add
+  656  git add .
+  657  git commit -m "A very real script here"
+  658  git push
+  659  exit
+  660  ls
+  661  cd SYS-265/
+  662  ls
+  663  cd linux/
+  664  ls
+  665  mv ~/sys265.pub ~/SYS-265/linux/
+  666  ls
+  667  mv sys265.pub public-keys/
+  668  ls
+  669  cd public-keys/
+  670  ls
+  671  git add .
+  672  git commit -m "Its not a private key I swear"
+  673  git push
+  674  cd ../..
+  675  git pull
+  676  sudo useradd -m -d /home/sys265 -s /bin/bash sys265
+  677  ls ~
+  678  ls /
+  679  ls /home/
+  680  sudo mkdir /home/sys265/.ssh
+  681  sudo cp linux/public-keys/sys265.pub /home/sys265/.ssh/authorized_keys
+  682  ls /home/sys265/
+  683  sudo ls /home/sys265/
+  684  sudo ls /home/
+  685  sudo ls -a /home/sys265/
+  686  sudo ls -a /home/sys265/.ssh
+  687  sudo ls -l /home/sys265/.ssh/authorized_keys
+  688  sudo ls -la /home/sys265/.ssh/authorized_keys
+  689  sudo ls -l /home/sys265/.ssh/authorized_keys
+  690  sudo ls -a /home/sys265/.ssh/authorized_keys
+  691  cd linux/
+  692  cd public-keys/
+  693  ls
+  694  sudo cp sys265.pub /home/sys265/.ssh/authorized_keys
+  695  sudo ls /home/sys265/.ssh/authorized_keys 
+  696  sudo cat /home/sys265/.ssh/authorized_keys 
+  697  sudo chmod 700 /home/sys265/.ssh
+  698  sudo chmod 600 /home/sys265/.ssh/authorized_keys 
+  699  sudo chown -R sys265:sys265 /home/sys265/.ssh
+  700  exit
+  701  sudo nano /etc/ssh/sshd_config
+  702  systemctl restart sshd
+  703  sudo systemctl restart sshd
+  704  sudo systemctl status sshd
+  705  exit
+  706  ls
+  707  cd SYS-265/
+  708  cd linux/
+  709  ls
+  710  cd ubuntu/
+  711  ls
+  712  nano secure-ssh.sh 
+  713  ls
+  714  git add .
+  715  git commit -m "updated secure-ssh.sh to actually be a functional script"
+  716  git push
+  717  nano
+  718  nano secure-ssh.sh 
+  719  git add .
+  720  git commit -m "made minor changes and fixed some typos"
+  721  git push
+  722  sudo ./secure-ssh.sh 
+  723  nano secure-ssh.sh 
+  724  sudo ./secure-ssh.sh 
+  725  nano secure-ssh.sh 
+  726  sudo ./secure-ssh.sh 
+  727  nano secure-ssh.sh 
+  728  sudo ./secure-ssh.sh 
+  729  ls /home
+  730  sudo ./secure-ssh.sh 
+  731  nano secure-ssh.sh 
+  732  sudo ./secure-ssh.sh 
+  733  sudo apt-get curl
+  734  sudo apt-get curld
+  735  curl --version
+  736  sudo ./secure-ssh.sh 
+  737  sudo mkdir /home/test1/.ssh
+  738  sudo ./secure-ssh.sh 
+  739  curl https://raw.githubusercontent.com/LeoB1um/SYS-265/refs/heads/main/linux/public-keys/sys265.pub
+  740  ls
+  741  sudo ./secure-ssh.sh 
+  742  ls /home
+  743  sudo useradd -m -d /home/test1/ -s /bin/bash
+  744  sudo useradd -m -d /home/test1/ -s /bin/bash test1
+  745  ls
+  746  ls /home
+  747  rm -r /home/test1/
+  748  sudo rm -r /home/test1/
+  749  ls
+  750  ls /home
+  751  sudo ./secure-ssh.sh 
+  752  userdel test1
+  753  sudo userdel test1
+  754  sudo ./secure-ssh.sh 
+  755  sudo usrdel test1
+  756  sudo userdel test1
+  757  ls
+  758  rm sys265.pub
+  759  ls
+  760  sudo ./secure-ssh.sh 
+  761  ls /home
+  762  sudo userdel test1
+  763  ls /home
+  764  sudo userdel test1
+  765  sudo ./secure-ssh.sh 
+  766  ls
+  767  cat secure-ssh.sh 
+  768  ls
+  769  ls /home
+  770  sudo delusr test2
+  771  sudo userdel test2
+  772  ls
+  773  ls /home
+  774  sudo rm -r /home/test2
+  775  ls
+  776  ls /home
+  777  sudo ./secure-ssh.sh 
+  778  cat /etc/passwd
+  779  history
+  780  history > /home/leo/commandHistory.txt
