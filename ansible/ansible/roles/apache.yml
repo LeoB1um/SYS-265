@@ -1,0 +1,10 @@
+---
+- name: install apache
+  hosts: web
+  become: true
+  vars:
+    ansible_os_family: "RedHat"
+    ansible_distribution: "Rocky"
+    ansible_distribution_version: "8"
+  roles:
+    - geerlingguy.apache

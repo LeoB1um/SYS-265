@@ -1,0 +1,43 @@
+---
+- name: webmin SYS265
+  hosts: webmin
+  become: true
+  vars:
+    install_utillities: true  # Ensuring utilities like repositories are installed
+    firewall_enable: true
+  tasks:
+    - name: Add Webmin repository for Rocky Linux
+      yum_repository:
+        name: Webmin
+        description: Webmin Repository
+        baseurl: http://download.webmin.com/download/yum
+        enabled: 1
+        gpgcheck: 1
+        gpgkey: http://www.webmin.com/jcameron-key.asc
+      when: ansible_os_family == "RedHat"  # Ensuring this is only for RedHat-like systems
+
+    - name: Import the Webmin GPG key
+      rpm_key:
+        state: present
+        key: http://www.webmin.com/jcameron-key.asc
+      when: ansible_os_family == "RedHat"
+
+    - name: Ensure firewalld is installed and running
+      package:
+        name: firewalld
+        state: present
+      become: true
+
+    - name: Start and enable firewalld service
+      service:
+        name: firewalld
+        state: started
+        enabled: true
+      become: true
+
+    - name: add firewall rule
+      firewalld:
+        port: 10000/tcp
+        permanent: true
+        state: enabled
+      become: true

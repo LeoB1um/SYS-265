@@ -1,0 +1,12 @@
+[web]
+ansible1-leo
+
+[webmin]
+ansible2-leo
+
+[windows]
+mgmt01-leo
+wks01-leo
+
+[windows:vars]
+ansible_shell_type=powershell

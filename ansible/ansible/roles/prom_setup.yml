@@ -1,0 +1,21 @@
+---
+- hosts: ansible1-leo  # Target the ansible1-leo host specifically
+  become: true  # Ensure to run with elevated privileges (if necessary)
+  roles:
+    - cloudalchemy.prometheus
+  vars:
+    prometheus_targets:
+      node:
+        - targets:
+          - localhost:9100
+          - demo.cloudalchemy.org:9100
+          labels:
+            env: demosite
+    ansible_os_family: "RedHat"
+    ansible_distribution: "Rocky"
+    ansible_distribution_version: "8"
+  tasks:
+    - name: Ensure correct package for SELinux management
+      package:
+        name: policycoreutils-python-utils
+        state: present

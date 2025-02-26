@@ -1,0 +1,17 @@
+---
+- name: install more windows apps (notepad and terminal for better ps)
+  hosts: windows
+  tasks:
+    - name: installing notepad++
+      win_chocolatey:
+        name: notepadplusplus
+        version: '8.7.7'
+        source: https://community.chocolatey.org/api/v2/
+        state: present
+    - name: installing terminal
+      win_chocolatey:
+        name: microsoft-windows-terminal
+        version: '1.23.10353-beta'
+        source: https://community.chocolatey.org/api/v2/
+        state: present
+        allow_prerelease: yes

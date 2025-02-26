@@ -1,0 +1,17 @@
+---
+- name: Install Prometheus on ansible1
+  ignore_errors: yes
+  hosts: prometheus
+  become: true
+  vars:
+    install_utilities: false
+    firewalld_enable: true
+  roles:
+  - cloudalchemy.prometheus
+
+  tasks:
+  - name: add firewall rule
+    firewalld:
+      port: 9000/tcp
+      permanent: true
+      state: enabled

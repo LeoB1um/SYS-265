@@ -1,0 +1,20 @@
+---
+- hosts: web
+  become: true
+  vars:
+    install_utilities: false
+    firewalld_enable: true
+
+
+  tasks:
+    - name: install nginx
+      dnf: name=nginx state=latest
+    - name: start nginx
+      service:
+        name: nginx
+        state: started
+    - name: add firewall rule
+      firewalld:
+        port: 80/tcp
+        permanent: true
+        state: enabled

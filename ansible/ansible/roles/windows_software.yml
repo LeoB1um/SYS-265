@@ -1,0 +1,37 @@
+---
+- name: install windows apps
+  hosts: system
+  tasks:
+    - name: ensure chocolate install
+      win_chocolatey_facts:
+      register: choco_facts
+
+    - name: Install Chocolatey if not already installed
+      win_command: |
+        Set-ExecutionPolicy Bypass -Scope Process -Force;
+        [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
+        iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+      when: choco_facts.chocolatey is not defined
+      args:
+        creates: C:\ProgramData\chocolatey\bin\choco.exe
+
+
+    - name: Add Chocolatey to PATH if not already done
+      win_environment:
+        name: Path
+        value: 'C:\ProgramData\chocolatey\bin'
+        state: present
+      when: choco_facts.chocolatey is defined
+
+    - name: Ensure ChocolateyInstall environment variable is set
+      win_environment:
+        name: ChocolateyInstall
+        value: 'C:\ProgramData\chocolatey'
+        state: present
+      when: choco_facts.chocolatey is defined
+
+
+    - name: install terminal
+      win_chocolatey:
+        name: microsoft-windows-terminal
+        state: present
